@@ -1,5 +1,9 @@
 ## Hi there 👋
 
+Not really much to see here citizen, move along.
+
+Or maybe there is, it is hard to tell these days. If you look long enough you might find something.
+
 <!--
 **battd13/battd13** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
