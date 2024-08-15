@@ -1,11 +1,20 @@
-function text(url) {
-  return fetch(url).then(res => res.text());
+function getIP() {
+  return new Promise((resolve, reject) => {
+    const resolver = new doh.DohResolver("https://1.1.1.1/dns-query");
+    resolver
+      .query(location.hostname, "A")
+      .then((response) => {
+        response.answers.forEach((ans) => {
+          resolve(ans.data)
+        });
+        if (response.answers.length == 0) {
+          resolve(location.hostname)
+        }
+      })
+      .catch((err) => reject(err));
+  });
 }
 
-text('https://www.cloudflare.com/cdn-cgi/trace').then(data => {
-  let ipRegex = /[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}/
-  let ip = data.match(ipRegex)[0];
-  let kexRegex = /kex=(.*);
-  let kex = data.match(kexRegex)[1];
-  console.log(ip, kex);
+getIP().then((res) => {
+  document.getElementById("ip").innerText = res;
 });
