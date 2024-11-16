@@ -15,27 +15,10 @@
     Added extra bot honeypot to fill their logs with bad data. :)<br>
     What is going on here? The less friendly version of this website: <a href="https://browserleaks.com"  target="_blank">Leaking Browser</a> </h3>
     <p></p>
-    <!-- Below is commented out, was being used for testing, leaving it here for posterity.
-    <script src="https://cdn.jsdelivr.net/npm/dohjs@latest/dist/doh.min.js"></script>
-    <script src="scripts/visitor.js"></script>
-    The IP you think you are reaching is: <span id="ip"></span></p>
-    -->
     <!--
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // Fetch the IP address from the API
-            fetch("https://api.ipify.org?format=json")
-                .then(response => response.json())
-                .then(data => {
-                    // Display the IP address on the screen
-                    document.getElementById("ip").textContent = data.ip;
-                })
-                .catch(error => {
-                    console.error("Error fetching IP address:", error);
-                });
-        });
-    </script>
-    -->
+    <script src="scripts/visitor.js"></script>
+    <p>The IP you think you are reaching is: <span id="ip"></span></p>
+    --->
     <script src="scripts/whoareyou.js"></script>
     <p>Your public IP Address is: <span id="ip"></span></p>
 </body>
