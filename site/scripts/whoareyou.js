@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(response => response.json())
         .then(data => {
             // Display the IP address on the screen
-            data.ip = document.getElementById("ip").textContent;
+            document.getElementById("ip").textContent = data.ip;
         })
         .catch(error => {
             console.error("Error fetching IP address:", error);
