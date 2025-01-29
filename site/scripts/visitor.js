@@ -7,7 +7,7 @@ function getIP() {
         response.answers.forEach((ans) => {
           resolve(ans.data)
         });
-        if (response.answers.length == 0) {
+        if (response.answers.length === 0) {
           resolve(location.hostname)
         }
       })
