@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <meta charset="UTF-16">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+</head>
+<body>
+    <h1>Hi there 👋</h1>
+    <h3 id="WTF">Not really much to see here citizen, move along.</h3>
+    ...Or maybe there is, it is hard to tell these days. If you look long enough you might find something.<br>
+    This website was last updated on August 30, 2026.<br>
+    As we live in a "post-truth" era where anything created on the Internet is 100% accurate and believable (especially by Americans) please enjoy some non-research-driven news articles:<br>
+    <ul>
+        <li><a href="posts/dr-hamsters.html" target="_blank">Using IT Employees as Disaster Recovery Hamsters to Power Data Centers</a></li>
+        <li><a href="posts/electing-chimpanzees.html" target="_blank">Chimpanzees in Governance</a></li>
+        <li><a href="posts/crushedglass.html" target="_blank">Health Benefits from eating crushed glass</a></li>
+        <li><a href="posts/headagainstwall.html" target="_blank">Beating your head against the wall has benefits</a></li>
+        <li><a href="posts/redditmedicaladvice.html" target="_blank">Outsourcing your medical care to Reddit</a></li>
+        <li><a href="posts/customershateyou.html" target="_blank">The Value of Making Customers Hate You</a></li>
+        <li><a href="posts/nosavings.html" target="_blank">Forget savings accounts, live for the moment!</a></li>
+        <li><a href="posts/collapsingstockmarkets.html" target="_blank">Financial benefits of a collapsed stock market</a></li>
+        <li><a href="posts/hremployees.html" target="_blank">Why corporations benefit from psychopathic HR employees</a></li>
+        <li><a href="posts/hotcoals.html" target="_blank">Walking on hot coals</a></li>
+        <li><a href="posts/mysticrainfall.html" target="_blank">The unexplained phenomenon of rainfall!</a></li>
+        <li><a href="posts/violentindependencemovements.html" target="_blank">Value of violence over words</a> </li>
+        <li><a href="posts/antiscienceislowstress.html" target="_blank">Anti-Science is Low Stress!</a> </li>
+        <li><a href="posts/publicexecutions.html" target="_blank">Using public executions to drive civic engagement</a> </li>
+        <li><a href="posts/birddrones.html" target="_blank">Only machines can fly. All birds must be drones.</a> </li>
+        <li><a href="posts/gluttonyisavirtue.html" target="_blank">To honor US Thanksgiving, let's learn why gluttony is a virtue!</a></li>
+        <li><a href="posts/horribleuiisgood.html" target="_blank">Spending time on a horrible website UI is a great investment!</a></li>
+        <li><a href="posts/cabbageconsumption.html" target="_blank">Discover the important value of consuming two kilos of cabbage.</a></li>
+        <li><a href="posts/bathroomsaremindcontrol.html" target="_blank">Bathrooms are mind control, ignore them and go wherever you want!</a> </li>
+        <li><a href="posts/bankrupting-countries.html" target="_blank">Bankrupting the country is good for apocalypse stocks</a> </li>
+        <li><a href="posts/ethicsareforlosers.html" target="_blank">Ethics are for losers!</a></li>
+        <li><a href="posts/medicalscienceisallwrong.html" target="_blank">Replace medical science with ouija boards!</a></li>
+        <li><a href="posts/mentaldegeneracy.html" target="_blank">250 years of mental degeneracy!</a></li>
+        <li><a href="posts/fightingwarstolose.html" target="_blank">Picking fights just to be defeated!</a></li>
+
+    </ul>
+    <p>
+        I present you with the best song never-sung:<br><br>
+            I’m proud to be Hungarian, where at least I know I’m free.<br>
+            And I won’t forget the men who tried to take that right from me.<br>
+            So I’d like us all to stand up, and yell, “Fuck You” for all the world to hear,<br>
+            Because I’m proud to be Hungarian, and you can hold my beer.<br>
+    </p>
+    <!--
+    <script src="scripts/visitor.js"></script>
+    <p>The IP you think you are reaching is: <span id="ip"></span></p>
+    --->
+    <script src="scripts/whoareyou.js"></script>
+    <p>Your public IP Address is: <span id="ip"></span></p>
+</body>
+</html>
+
+
+
+
+
+
